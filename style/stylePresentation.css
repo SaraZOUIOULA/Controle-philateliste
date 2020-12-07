@@ -1,0 +1,14 @@
+#contenant{
+    width: 100%;
+    height: auto;
+}
+div>img{
+    height: 100px;
+    width: 170px;
+    margin-right: 5px;
+}
+.pays{
+    height: 170px;
+    width: 130px;
+    margin-right: 16px;
+}

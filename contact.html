@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style/style.css" />
+        <link rel="stylesheet" href="style/styleContact.css" />
+        <script src="js/contact.js" defer></script>
+        <title>Contact</title>
+    </head>
+	<body>
+        <header>
+            <div id="logo">
+                <img src="images\logo.png" alt="logo"/>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="presentationTimbre.html">TIMBRES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="banniere_image">
+            <div id="banniere_texte">
+                l'art de collectionner des timbres.
+            </div>
+        </div>
+        <main id="flex">
+            <form>
+                <fieldset>
+                    <legend>Formulaire de contact</legend>
+                    <label for='name'>Nom complet:</label> 
+                    <input type="text" placeholder="Nom complet"><br>
+
+                    <label for="email">Email:</label> 
+                    <input type="text" placeholder="your@email.com"><br>
+
+                    <label for="password">Mot de passe:</label>
+                    <input type="password"><br>
+
+                    <label for="phone">T&eacute;l&eacute;phone:</label>
+                    <input type="tel" placeholder="06********"><br><br>
+                    
+                    <label for="gender">Genre:</label><br>
+                    <input type="radio" name="gender">Male <br>
+                    <input type="radio" name="gender">Female<br><br>
+                    
+                    <label for="age">Age:</label>
+                    <select>
+                        <option> 0-20 </option>
+                        <option> 20-40 </option>
+                        <option> 40+ </option>
+                    </select>
+                    <br><br>
+                    <label for="collection">Sujet de collection souhaitée:</label><br>
+                        <input type="checkbox"> Philat&eacute;lie fiscale<br>
+                        <input type="checkbox"> Philat&eacute;lie th&eacute;matique<br>
+                        <input type="checkbox"> Philat&eacute;lie mondialiste<br>
+                        <input type="checkbox"> A&eacute;rophilat&eacute;lie<br>
+                        <br><br>
+                    <label for="message">Message:</label>
+                    <textarea cols="115" rows="10" placeholder="Saisissez votre message ici."></textarea>
+                    <br><br>
+                    <input type="submit" value="Envoyer" id="submit">
+                    <input type="reset" value="Vider le formulaire">
+                </fieldset>
+                <div id="message"></div>
+            </form>
+        </main>
+        <footer>
+            <a href=""><img src="images\facebook.png" alt="facebook"></a>
+            <a href=""><img src="images\twitter.png" alt="twitter"></a>
+            <a href=""><img src="images\flickr.png" alt="flickr"></a>
+            <a href=""><img src="images\vimeo.png" alt="vimeo"></a>
+            <p>© 2020 Phila</p> 
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+p{
+    text-align: justify;
+    font-size: 1.25em;
+}
+
+h1{
+    color:#760001;
+}
+
+li{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#fiscale>li{
+    font-weight: normal;
+}
+

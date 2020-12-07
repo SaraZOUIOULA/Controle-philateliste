@@ -1,0 +1,9 @@
+fieldset{
+    border-radius: 5px;
+    border-color: #760001;
+}
+
+form{
+    font-size: 1.2em;
+    display: block;
+}
